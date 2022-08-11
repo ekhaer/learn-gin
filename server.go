@@ -13,14 +13,6 @@ func main() {
         })
     })
 
-	// connStr := "postgresql://<emilia>:<emilia>@<localhost>/TestCase?sslmode=disable
-	// "
-	//    // Connect to database
-	//    db, err := sql.Open("postgres", connStr)
-	//    if err != nil {
-	// 	   log.Fatal(err)
-	//    }
-
     r.Run()
 
 }
